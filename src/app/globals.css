@@ -1,42 +1,235 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    font-family: "Inter Tight", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 72px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* Nav */
+
+nav {
+    padding: 24px 0px;
+}
+
+nav strong {
+    font-weight: 500;
+    color: #000;
+}
+
+nav .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .links a {
+    color: #000;
+    transition: 200ms;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+nav .links a:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Hero */
+
+.hero {
+    padding: 72px 0px;
+}
+
+.hero .text-wrapper {
+    padding-bottom: 56px;
+}
+
+.hero .text-wrapper p {
+    font-size: 28px;
+    font-weight: medium;
+}
+
+.hero .text-wrapper h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.hero .text-wrapper h1 span {
+    color: #00000082;
+}
+
+/*  */
+
+.hero .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .flex p {
+    max-width: 518px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: light;
+    /* margin: auto; */
+}
+
+.hero .flex .contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #000;
+    color: #fff;
+    padding: 24px 37px;
+    border-radius: 100px;
+}
+
+
+/* Portfolio */
+
+
+.portfolio {
+    padding: 72px 0px;
+}
+
+.portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.portfolio-header .btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 16px 20px;
+    color: #000;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item .project-preview {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-item__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.portfolio-item__text div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.portfolio-item .visit-btn {
+    padding: 16px 28px;
+    border: 1px solid #000;
+    border-radius: 100px;
+}
+
+
+/* About Me */
+
+.about-me {
+    padding: 72px 0px;
+}
+
+.about-me .about-me__text {
+    padding-bottom: 32px;
+}
+
+.about-me .about-me__text p {
+    font-size: 18px;
+    max-width: 697px;
+    font-weight: light;
+}
+
+.about-me .about-me__text h3 {
+    font-weight: 600;
+    max-width: 856px;
+    font-size: 72px;
+    padding-bottom: 24px;
+}
+
+.about-me .more-btn {
+    padding: 16px 20px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 150px;
+    border-radius: 100px;
+    color: #000;
+}
+
+
+/* Slider */
+
+.slider {
+    display: none;
+}
+
+/*  Highlights  */
+
+.blog {
+    padding: 72px 0px;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.blog-header .more-btn {
+    padding: 16px 20px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 100px;
+    color: #000;
+}
+
+/*  Contact  */
+
+.contact {
+    padding-top: 72px;
 }
