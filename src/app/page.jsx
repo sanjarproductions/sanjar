@@ -144,21 +144,21 @@ export default function Home() {
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
                   <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual designs by </p>
+                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
                 </div>
               </div>
               <div className="post">
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
                   <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual designs by </p>
+                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
                 </div>
               </div>
               <div className="post">
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
                   <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual designs by </p>
+                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
         <section className="contact">
           <div className="container">
             <p>Have an idea?</p>
-            <h5>Let’s rock with me</h5>
+            <h6>Let’s rock with me</h6>
             <a href="mailto:sanjarkama26@gmail.com">sanjarkama26@gmail.com</a>
           </div>
         </section>
@@ -181,7 +181,16 @@ export default function Home() {
 
       <footer>
         <div className="container">
-
+          <div className="footer__text">
+            <h6>sanjar.</h6>
+            <p>A stunning digital designer portfolio website template for you.</p>
+          </div>
+          <div className="socialmedia-links">
+            <a href="https://github.com/sanjarproductions">GitHub</a>
+            <a href="https://www.linkedin.com/in/sanjarkamaliddinov/">LinkedIn</a>
+            <a href="https://x.com/sanjarprod">X</a>
+            <a href="https://www.youtube.com/@sanjarcoding">YouTube</a>
+          </div>
         </div>
       </footer>
 

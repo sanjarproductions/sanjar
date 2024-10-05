@@ -218,6 +218,17 @@ nav .links a:hover {
     padding-bottom: 40px;
 }
 
+.blog-header h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.blog .highlights {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .blog-header .more-btn {
     padding: 16px 20px;
     border: 1px solid #000;
@@ -228,8 +239,85 @@ nav .links a:hover {
     color: #000;
 }
 
+.blog .highlights .post {
+    max-width: 331px;
+}
+
+.blog .highlights .post__text {
+    padding-top: 24px;
+}
+
+.blog .highlights .post__text h6 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+
 /*  Contact  */
 
+
 .contact {
-    padding-top: 72px;
+    padding: 72px 0px;
+    text-align: center;
 }
+
+.contact p {
+    font-size: 28px;
+    padding-bottom: 24px;
+}
+
+.contact h6 {
+    font-size: 104px;
+    font-weight: 700;
+    margin-bottom: 72px;
+}
+
+.contact a {
+    font-size: 26px;
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+/* Footer */
+
+
+footer {
+    padding: 72px 0px;
+    background: #131313;
+    color: #fff;
+}
+
+footer .footer__text {
+    padding-bottom: 64px;
+}
+
+footer .footer__text h6 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+footer .footer__text p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer .socialmedia-links {
+    display: flex;
+    gap: 16px;
+}
+
+footer .socialmedia-links a {
+    border-radius: 100px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* Cutomize & Make mobile & Resume Page and may be Blog */
