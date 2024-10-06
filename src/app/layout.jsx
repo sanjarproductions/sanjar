@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Sanjar",
-  description: "",
+  description: "Sanjar Kamaliddinov's personal website",
 };
 
 export default function RootLayout({ children }) {
