@@ -41,6 +41,9 @@ export default function Home() {
             </div>
 
           </section>
+
+
+
           <section className="portfolio">
             <div className="portfolio-header">
               <h2>Selected works</h2>
@@ -51,52 +54,52 @@ export default function Home() {
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-1.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Jetour</strong>
                   <p>Landing Page / Website</p>
                 </div>
-                <a href="/" className="visit-btn">
+                <a href="https://jetour-uzbekistan.uz/" target="_blank" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
                 </a>
               </div>
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-2.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Hongqi</strong>
                   <p>Landing Page / Website</p>
                 </div>
-                <a href="/" className="visit-btn">
+                <a href="https://hongqiuzbekistan.uz/" target="_blank" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
                 </a>
               </div>
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-3.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Kivi Studio</strong>
                   <p>Website</p>
                 </div>
-                <a href="/" className="visit-btn">
+                <a href="https://kivistudio.uz/" target="_blank" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
                 </a>
               </div>
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-4.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Mold Components</strong>
                   <p>E-commerse / Web App</p>
                 </div>
-                <a href="/" className="visit-btn">
+                <a href="https://mold-react-september.vercel.app/" target="_blank" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
                 </a>
               </div>
@@ -120,32 +123,33 @@ export default function Home() {
           <Swiper
             slidesPerView={2}
             centeredSlides={true}
-            spaceBetween={30}
+            spaceBetween={0}
             loop={true}
-            speed={1200}
+            speed={10000}
             autoplay={{
-              delay: 2500,
+              delay: 0,
               disableOnInteraction: false,
             }}
+
             modules={[Autoplay]} className="mySwiper">
 
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-1.svg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-2.png" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-3.png" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-4.png" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-5.png" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+              <img src="/img/brand-logos/brand-6.png" alt="" />
             </SwiperSlide>
 
 
@@ -201,13 +205,13 @@ export default function Home() {
           <div className="footer__text">
             <h6>sanjar.</h6>
             <p></p>
-            <i>The genius thing we did was, we didn&apos;t give up - Jay Z - Jay Z </i>
+            <i>The genius thing we did was, we didn&apos;t give up - Jay Z </i>
           </div>
           <div className="socialmedia-links">
-            <a href="https://github.com/sanjarproductions">GitHub</a>
-            <a href="https://www.linkedin.com/in/sanjarkamaliddinov/">LinkedIn</a>
-            <a href="https://x.com/sanjarprod">X</a>
-            <a href="https://www.youtube.com/@sanjarcoding">YouTube</a>
+            <a target="_blank" href="https://github.com/sanjarproductions">GitHub</a>
+            <a target="_blank" href="https://www.linkedin.com/in/sanjarkamaliddinov/">LinkedIn</a>
+            <a target="_blank" href="https://x.com/sanjarprod">X</a>
+            <a target="_blank" href="https://www.youtube.com/@sanjarcoding">YouTube</a>
           </div>
         </div>
       </footer>
