@@ -19,7 +19,7 @@ const Blog = () => {
             </nav>
             <main>
                 <div className="container">
-                    
+                    Bare patience, page is under construstion.
                 </div>
             </main>
         </>

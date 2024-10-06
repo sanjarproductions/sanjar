@@ -46,29 +46,29 @@ const Resume = () => {
                         <p className="sec-title">Experiance:</p>
 
                         <div className="job">
-                            <p className="job-title">Intern Web Developer at SMMAK.uz</p>
+                            <p className="job-title">Intern Web Developer at <a href="https://smmak.uz/">SMMAK.uz</a> </p>
                             <p className="job-date">Jun 2022- Sep 2022</p>
                             <p className="job-stack">Technologies: HTML, CSS, JavaScript, WordPress</p>
                             <ul>
-                                <li>Build E-commerce website for ECO-ICE.uz, generated hundreds of clients.</li>
-                                <li>Build & Launched a landing Page for TS-TEAM.aero, a worldwide logistics company</li>
+                                <li>Build E-commerce website for <a href="https://eco-ice.uz/" target="_blank">ECO-ICE.uz</a> , generated hundreds of clients.</li>
+                                <li>Build & Launched a landing Page for <a href="https://tsteam.aero/" target="_blank">TS-TEAM.aero</a> , a worldwide logistics company</li>
                             </ul>
                         </div>
 
                         <div className="job">
-                            <p className="job-title">Founder at KiviStudio.uz</p>
+                            <p className="job-title">Founder at <a href="https://kivistudio.uz/" target="_blank">KiviStudio.uz</a></p>
                             <p className="job-date">Dec 2022 - Present</p>
                             <p className="job-stack">Technologies: React, Next, Python, HTML, CSS, JavaScript</p>
                             <ul>
-                                <li>Build jetour-uzbekistan.uz.uz</li>
-                                <li>Build hongqiuzbekistan.uz</li>
-                                <li>Build bestuneuzbekistan.uz</li>
-                                <li>Build dongfenguzbekistan.uz</li>
+                                <li>Build <a href="https://jetour-uzbekistan.uz/" target="_blank">jetour-uzbekistan.uz</a></li>
+                                <li>Build <a href="https://hongqiuzbekistan.uz/" target="_blank"> hongqiuzbekistan.uz </a></li>
+                                <li>Build <a href="https://bestuneuzbekistan.uz/" target="_blank"> bestuneuzbekistan.uz </a></li>
+                                <li>Build <a href="https://dongfenguzbekistan.uz/" target="_blank"> dongfenguzbekistan.uz </a></li>
                             </ul>
                         </div>
 
                         <div className="job">
-                            <p className="job-title">Founder & CEO at Downloadlify</p>
+                            <p className="job-title">Founder & CEO at <a href="https://downloadlify.vercel.app/" target="_blank">Downloadlify</a> </p>
                             <p className="job-date">May 2024- Sep 2024</p>
                             <p className="job-stack">Technologies: React, Next, Firebase, API, HTML, CSS</p>
                             <ul>

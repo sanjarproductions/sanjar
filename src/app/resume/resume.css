@@ -1,3 +1,8 @@
+.resume a {
+    text-decoration: underline;
+    color: #000;
+}
+
 .resume h6 {
     text-align: center;
     font-size: 70px;
