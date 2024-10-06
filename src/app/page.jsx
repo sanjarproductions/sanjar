@@ -29,7 +29,7 @@ export default function Home() {
           <section className="hero">
             <div className="text-wrapper">
               <p>Hello! I’m Sanjar.</p>
-              <h1>Designing digital product with emphasis on <span>visual design</span> </h1>
+              <h1>Frontend Dev with next level of <span>Creativity</span> </h1>
             </div>
 
             <div className="flex">
@@ -37,7 +37,7 @@ export default function Home() {
                 Let’s Talk
                 <img src="/img/icons/arrow-right-light.svg" alt="" />
               </a>
-              <p>A multidisciplinary designer harnessing the power of design to achieve online goals.</p>
+              <p>A frontend developer focused on building effective web sites & apps.</p>
             </div>
 
           </section>
@@ -54,8 +54,8 @@ export default function Home() {
               <img className="project-preview" src="/img/portfolio/project.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
-                  <strong>Sportly</strong>
-                  <p>Mobile App Design</p>
+                  <strong>Jetour</strong>
+                  <p>Landing Page / Website</p>
                 </div>
                 <a href="/" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
@@ -67,8 +67,8 @@ export default function Home() {
               <img className="project-preview" src="/img/portfolio/project.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
-                  <strong>Sportly</strong>
-                  <p>Mobile App Design</p>
+                  <strong>Hongqi</strong>
+                  <p>Landing Page / Website</p>
                 </div>
                 <a href="/" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
@@ -80,8 +80,21 @@ export default function Home() {
               <img className="project-preview" src="/img/portfolio/project.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
-                  <strong>Sportly</strong>
-                  <p>Mobile App Design</p>
+                  <strong>Kivi Studio</strong>
+                  <p>Website</p>
+                </div>
+                <a href="/" className="visit-btn">
+                  <img src="/img/icons/arrow-right-dark.svg" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div className="portfolio-item">
+              <img className="project-preview" src="/img/portfolio/project.png" alt="" />
+              <div className="portfolio-item__text">
+                <div>
+                  <strong>Mold Components</strong>
+                  <p>E-commerse / Web App</p>
                 </div>
                 <a href="/" className="visit-btn">
                   <img src="/img/icons/arrow-right-dark.svg" alt="" />
@@ -93,10 +106,10 @@ export default function Home() {
 
           <section className="about-me">
             <div className="about-me__text">
-              <h3>A visual designer focused on creating emotional digital experience</h3>
-              <p>Concentrate on your primary objective which is expanding your business, and leave it to me to ensure that your business is efficiently portrayed in the digital realm and distinguishes itself from the rivals.</p>
+              <h3>A frontend developer dedicated to making a world better place.</h3>
+              <p>Focus on growing your business, and let me handle your online presence to help you stand out from the competition.</p>
             </div>
-            <a href="/" className="more-btn">
+            <a href="/resume" className="more-btn">
               About Me
               <img src="/img/icons/arrow-right-dark.svg" alt="" />
             </a>
@@ -105,8 +118,9 @@ export default function Home() {
 
         <section className="slider">
           <Swiper
-            slidesPerView={3}
-            spaceBetween={50}
+            slidesPerView={2}
+            centeredSlides={true}
+            spaceBetween={30}
             loop={true}
             speed={1200}
             autoplay={{
@@ -116,17 +130,24 @@ export default function Home() {
             modules={[Autoplay]} className="mySwiper">
 
             <SwiperSlide>
-              <Image src="/img/brand-logos/brand-logo.svg" alt="" width="100" height="100"></Image>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/img/brand-logos/brand-logo.svg" alt="" width="100" height="100"></Image>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/img/brand-logos/brand-logo.svg" alt="" width="100" height="100"></Image>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/img/brand-logos/brand-logo.svg" alt="" width="100" height="100"></Image>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
             </SwiperSlide>
+            <SwiperSlide>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/img/brand-logos/brand-logo.svg" alt="" />
+            </SwiperSlide>
+
 
           </Swiper>
         </section>
@@ -143,22 +164,22 @@ export default function Home() {
               <div className="post">
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
-                  <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
+                  <h6>Why Responsive Design Matters for Your Website</h6>
+                  <p>Learn how responsive design enhances user experience and accessibility.</p>
                 </div>
               </div>
               <div className="post">
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
-                  <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
+                  <h6>Top 5 JavaScript Frameworks for Frontend Developers in 2024</h6>
+                  <p>Explore the best JavaScript frameworks to elevate your development projects.</p>
                 </div>
               </div>
               <div className="post">
                 <img src="/img/highlights/blog-post.png" alt="" />
                 <div className="post__text">
-                  <h6>Mastering the Art of Color Theory: A Visual Designer&apos;s Guide</h6>
-                  <p>Dive into the fascinating world of color theory and learn how to create captivating visual </p>
+                  <h6>How to Build a Standout Portfolio to Showcase Your Work</h6>
+                  <p>Tips for creating an impressive portfolio that highlights your skills effectively.</p>
                 </div>
               </div>
             </div>
@@ -173,17 +194,14 @@ export default function Home() {
           </div>
         </section>
 
-
-
-
-
       </main>
 
       <footer>
         <div className="container">
           <div className="footer__text">
             <h6>sanjar.</h6>
-            <p>A stunning digital designer portfolio website template for you.</p>
+            <p></p>
+            <i>The genius thing we did was, we didn&apos;t give up - Jay Z - Jay Z </i>
           </div>
           <div className="socialmedia-links">
             <a href="https://github.com/sanjarproductions">GitHub</a>

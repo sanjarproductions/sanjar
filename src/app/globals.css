@@ -82,6 +82,7 @@ nav .links a:hover {
 
 .hero .text-wrapper h1 span {
     color: #00000082;
+    font-style: italic;
 }
 
 /*  */
@@ -108,8 +109,14 @@ nav .links a:hover {
     color: #fff;
     padding: 24px 37px;
     border-radius: 100px;
+    transition: 200ms;
 }
 
+.hero .flex .contact-btn:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 1;
+    transform: scale(1.1);
+}
 
 /* Portfolio */
 
@@ -125,6 +132,11 @@ nav .links a:hover {
     margin-bottom: 40px;
 }
 
+.portfolio-header h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
 .portfolio-header .btn {
     display: flex;
     align-items: center;
@@ -133,6 +145,12 @@ nav .links a:hover {
     border-radius: 100px;
     padding: 16px 20px;
     color: #000;
+    transition: 300ms;
+}
+
+.portfolio-header .btn:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
 }
 
 .portfolio-item {
@@ -161,8 +179,13 @@ nav .links a:hover {
     padding: 16px 28px;
     border: 1px solid #000;
     border-radius: 100px;
+    transition: 200ms;
 }
 
+.portfolio-item .visit-btn:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 /* About Me */
 
@@ -196,18 +219,28 @@ nav .links a:hover {
     max-width: 150px;
     border-radius: 100px;
     color: #000;
+    transition: 200ms;
 }
 
+.about-me .more-btn:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 /* Slider */
 
 .slider {
-    display: none;
+    /* display: none; */
 }
+.swiper-slide img{
+    max-width: 100px ;
+    width: 100%;
+} 
 
 /*  Highlights  */
 
 .blog {
+    display: none;
     padding: 72px 0px;
 }
 
@@ -317,6 +350,13 @@ footer .socialmedia-links a {
     width: 100%;
     color: #fff;
     border: 1px solid #fff;
+    transition: 200ms;
+}
+
+footer .socialmedia-links a:hover {
+    background: #fff;
+    transform: scale(1.1);
+    color: #131313;
 }
 
 
