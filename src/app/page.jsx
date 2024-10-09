@@ -80,7 +80,7 @@ export default function Home() {
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project-3.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-5.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Kivi Studio</strong>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
             <div className="portfolio-item">
-              <img className="project-preview" src="/img/portfolio/project-4.png" alt="" />
+              <img className="project-preview" src="/img/portfolio/project-6.png" alt="" />
               <div className="portfolio-item__text">
                 <div>
                   <strong>Mold Components</strong>
