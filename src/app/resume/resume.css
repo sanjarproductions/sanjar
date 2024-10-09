@@ -137,3 +137,21 @@
     font-size: 18px;
     padding-bottom: 10px;
 }
+
+
+@media(max-width:430px){
+    .container{
+        max-width: 375px;
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px;
+    }
+
+    nav .links{
+        display: none;
+    }
+
+    .resume h6{
+        font-size: 36px;
+    }
+}
