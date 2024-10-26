@@ -1,4 +1,5 @@
 "use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import "./page.module.css"
@@ -8,6 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
+
 export default function Home() {
   return (
     <>
@@ -16,10 +18,10 @@ export default function Home() {
           <div className="flex">
             <strong className="logo">sanjar.</strong>
             <div className="links">
-              <a href="/resume">Resume</a>
-              <a href="/projects">Projects</a>
-              <a href="/blog">Blog</a>
-              <a href="/travel">Travel</a>
+              <Link href="/resume">Resume</Link>
+              <Link href="/projects">Projects</Link>
+              <Link href="/blog">Blog</Link>
+              <Link href="/travel">Travel</Link>
             </div>
           </div>
         </div>
